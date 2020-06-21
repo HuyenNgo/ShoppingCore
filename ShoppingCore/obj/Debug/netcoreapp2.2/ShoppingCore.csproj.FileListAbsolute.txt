@@ -1,0 +1,14 @@
+D:\WORK\DOAN\HK2\ShoppingCore\ShoppingCore\bin\Debug\netcoreapp2.2\ShoppingCore.deps.json
+D:\WORK\DOAN\HK2\ShoppingCore\ShoppingCore\bin\Debug\netcoreapp2.2\ShoppingCore.runtimeconfig.json
+D:\WORK\DOAN\HK2\ShoppingCore\ShoppingCore\bin\Debug\netcoreapp2.2\ShoppingCore.runtimeconfig.dev.json
+D:\WORK\DOAN\HK2\ShoppingCore\ShoppingCore\bin\Debug\netcoreapp2.2\ShoppingCore.dll
+D:\WORK\DOAN\HK2\ShoppingCore\ShoppingCore\bin\Debug\netcoreapp2.2\ShoppingCore.pdb
+D:\WORK\DOAN\HK2\ShoppingCore\ShoppingCore\obj\Debug\netcoreapp2.2\ShoppingCore.csprojAssemblyReference.cache
+D:\WORK\DOAN\HK2\ShoppingCore\ShoppingCore\obj\Debug\netcoreapp2.2\ShoppingCore.csproj.CoreCompileInputs.cache
+D:\WORK\DOAN\HK2\ShoppingCore\ShoppingCore\obj\Debug\netcoreapp2.2\ShoppingCore.RazorAssemblyInfo.cache
+D:\WORK\DOAN\HK2\ShoppingCore\ShoppingCore\obj\Debug\netcoreapp2.2\ShoppingCore.RazorAssemblyInfo.cs
+D:\WORK\DOAN\HK2\ShoppingCore\ShoppingCore\obj\Debug\netcoreapp2.2\ShoppingCore.AssemblyInfoInputs.cache
+D:\WORK\DOAN\HK2\ShoppingCore\ShoppingCore\obj\Debug\netcoreapp2.2\ShoppingCore.AssemblyInfo.cs
+D:\WORK\DOAN\HK2\ShoppingCore\ShoppingCore\obj\Debug\netcoreapp2.2\ShoppingCore.RazorTargetAssemblyInfo.cache
+D:\WORK\DOAN\HK2\ShoppingCore\ShoppingCore\obj\Debug\netcoreapp2.2\ShoppingCore.dll
+D:\WORK\DOAN\HK2\ShoppingCore\ShoppingCore\obj\Debug\netcoreapp2.2\ShoppingCore.pdb
