@@ -20,7 +20,7 @@ namespace ShoppingCore.Controllers
         }
 
         // GET api/values
-        [Route("getallparents")]
+        [Route("getall")]
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
@@ -39,5 +39,15 @@ namespace ShoppingCore.Controllers
         {
             return new OkObjectResult(await this.productService.getlastproduct(top));
         }
+
+
+        [Route("getbyid/{id:int}")]
+        [HttpGet]
+
+        public async Task<IActionResult> GetByIdt(int id)
+        {
+            return new OkObjectResult(await this.productService.GetById(id));
+        }
+
     }
 }

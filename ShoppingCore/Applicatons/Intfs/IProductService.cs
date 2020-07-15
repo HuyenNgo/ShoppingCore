@@ -11,5 +11,6 @@ namespace ShoppingCore.Applicatons.Intfs
         Task<IEnumerable<Product>> GetAll();
         Task<IEnumerable<Product>> gethotproduct(int key);
         Task<IEnumerable<Product>> getlastproduct(int key);
+        Task<IEnumerable<Product>> GetById(int key);
     }
 }
