@@ -15,5 +15,6 @@ namespace ShoppingCore.Infrastructure.Core
             this.config = (IConfiguration)serviceProvider.GetService(typeof(IConfiguration));
             this._connStr = this.config.GetValue<string>("ConnectionStrings:DefaultConnection");
         }
+
     }
 }

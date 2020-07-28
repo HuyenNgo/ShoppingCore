@@ -12289,11 +12289,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\WORK\\DOAN\\HK2\\ShoppingCore\\ShoppingCore\\ShoppingCore.csproj",
+      "projectUniqueName": "D:\\WORK\\DOAN\\New folder\\ShoppingCore\\ShoppingCore.csproj",
       "projectName": "ShoppingCore",
-      "projectPath": "D:\\WORK\\DOAN\\HK2\\ShoppingCore\\ShoppingCore\\ShoppingCore.csproj",
+      "projectPath": "D:\\WORK\\DOAN\\New folder\\ShoppingCore\\ShoppingCore.csproj",
       "packagesPath": "C:\\Users\\NGO THI HUYEN\\.nuget\\packages\\",
-      "outputPath": "D:\\WORK\\DOAN\\HK2\\ShoppingCore\\ShoppingCore\\obj\\",
+      "outputPath": "D:\\WORK\\DOAN\\New folder\\ShoppingCore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

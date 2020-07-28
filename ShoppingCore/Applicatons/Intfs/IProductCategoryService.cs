@@ -1,4 +1,5 @@
-﻿using ShoppingCore.Models;
+﻿using ShoppingCore.Infrastructure.Core;
+using ShoppingCore.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +11,7 @@ namespace ShoppingCore.Applicatons.Intfs
     {
 
         Task<IEnumerable<ProductCategory>> ClientGetAll();
-
+        Task<PaginationSet<ProductCategory>> GetAll(string keyword, int page, int pageSize);
 
     }
 }

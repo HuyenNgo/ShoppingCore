@@ -16,16 +16,62 @@ namespace ShoppingCore.Applicatons.Impls
         {
 
         }
-        public async Task<IEnumerable<Product>> GetAll()
+        public async Task<PaginationSet<Product>> GetAll(string keyword, int page, int pageSize)
         {
-            string _commandText = "GetAllProduct";
+            string _commandText = "Products_Search";
             IEnumerable<Product> products = null;
+
+            var p = new DynamicParameters();
+            p.Add("@Keyword", keyword ?? default);
+            p.Add("@Page", page < 0 ? 1 : page);
+            p.Add("@PageSize", pageSize);
+            p.Add("@TotalCount", dbType: DbType.Int32, direction: ParameterDirection.Output);
+
+            await CommandHelper.ExecuteCommandAsync(_connStr,
+                  conn =>
+                  {
+                      products = conn.Query<Product>(_commandText, p, commandType: CommandType.StoredProcedure);
+                  });
+
+            int totalCount = p.Get<int>("@TotalCount");
+
+            return new PaginationSet<Product>()
+            {
+                Items = products,
+                Page = page,
+                TotalCount = totalCount,
+                TotalPages = (int)Math.Ceiling((decimal)totalCount / pageSize)
+            };
+
+
+        }
+
+        public async Task<PaginationSet<Product>> getallbycategory(int keyword, int page, int pageSize)
+        {
+            string _commandText = "Products_GetID";
+            IEnumerable<Product> products = null;
+
+            var p = new DynamicParameters();
+            p.Add("@Keyword", keyword < 0 ? 1 :keyword);
+            p.Add("@Page", page < 0 ? 1 : page);
+            p.Add("@PageSize", pageSize);
+            p.Add("@TotalCount", dbType: DbType.Int32, direction: ParameterDirection.Output);
+
             await CommandHelper.ExecuteCommandAsync(_connStr,
                   conn =>
                    {
-                       products = conn.Query<Product>(_commandText,commandType: CommandType.StoredProcedure);
+                       products = conn.Query<Product>(_commandText, p, commandType: CommandType.StoredProcedure);
                    });
-            return products.ToList();
+
+            int totalCount = p.Get<int>("@TotalCount");
+
+            return new PaginationSet<Product>()
+            {
+                Items = products,
+                Page = page,
+                TotalCount = totalCount,
+                TotalPages = (int)Math.Ceiling((decimal)totalCount / pageSize)
+            };
         }
 
         public async Task<IEnumerable<Product>> GetById(int key)
@@ -52,7 +98,7 @@ namespace ShoppingCore.Applicatons.Impls
             await CommandHelper.ExecuteCommandAsync(_connStr,
                   conn =>
                   {
-                      products = conn.Query<Product>(_commandText,p, commandType: CommandType.StoredProcedure);
+                      products = conn.Query<Product>(_commandText, p, commandType: CommandType.StoredProcedure);
                   });
             return products.ToList();
         }
@@ -66,7 +112,7 @@ namespace ShoppingCore.Applicatons.Impls
             await CommandHelper.ExecuteCommandAsync(_connStr,
                   conn =>
                   {
-                      products = conn.Query<Product>(_commandText,p,commandType:CommandType.StoredProcedure);
+                      products = conn.Query<Product>(_commandText, p, commandType: CommandType.StoredProcedure);
                   });
             return products.ToList();
         }
