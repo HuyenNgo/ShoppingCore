@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using ShoppingCore.Applicatons.Intfs;
+using ShoppingCore.Infrastructure.Core;
 using ShoppingCore.Models;
 
 namespace ShoppingCore.Controllers
@@ -11,7 +12,7 @@ namespace ShoppingCore.Controllers
 
     [Route("api/productcategory")]
     [ApiController]
-    public class ProductCategoryController : ControllerBase
+    public class ProductCategoryController : ApiBaseController
     {
 
         private readonly IProductCategoryService productCategoryService;

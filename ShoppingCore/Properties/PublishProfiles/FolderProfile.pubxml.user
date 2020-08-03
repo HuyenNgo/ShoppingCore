@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>E:\WORKPLACE\UNI COURSE\Dotnet\ShoppingCoreDeloy\DELOY\core</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Abstract/Auditable.cs">
+      <publishTime>07/28/2020 22:56:13</publishTime>
+    </File>
+    <File Include="Abstract/IAuditable.cs">
+      <publishTime>07/28/2020 22:56:13</publishTime>
+    </File>
+    <File Include="Applicatons/Dtos/Orders/OrderDetailViewModel.cs">
+      <publishTime>07/28/2020 22:56:13</publishTime>
+    </File>
+    <File Include="Applicatons/Dtos/Orders/OrderResultDto.cs">
+      <publishTime>07/28/2020 22:56:13</publishTime>
+    </File>
+    <File Include="Applicatons/Dtos/Orders/OrderViewModel.cs">
+      <publishTime>07/28/2020 22:56:13</publishTime>
+    </File>
+    <File Include="Applicatons/Impls/OrderService.cs">
+      <publishTime>07/28/2020 22:56:13</publishTime>
+    </File>
+    <File Include="Applicatons/Impls/ProductCategoryService.cs">
+      <publishTime>07/28/2020 22:56:13</publishTime>
+    </File>
+    <File Include="Applicatons/Impls/ProductService.cs">
+      <publishTime>07/28/2020 22:56:13</publishTime>
+    </File>
+    <File Include="Applicatons/Intfs/IOrderService.cs">
+      <publishTime>07/28/2020 22:56:13</publishTime>
+    </File>
+    <File Include="Applicatons/Intfs/IProductCategoryService.cs">
+      <publishTime>07/28/2020 22:56:13</publishTime>
+    </File>
+    <File Include="Applicatons/Intfs/IProductService.cs">
+      <publishTime>07/28/2020 22:56:13</publishTime>
+    </File>
+    <File Include="App_Data/Logs/ErrorLog.txt">
+      <publishTime>08/02/2020 18:44:48</publishTime>
+    </File>
+    <File Include="Controllers/OrderController.cs">
+      <publishTime>07/28/2020 22:56:13</publishTime>
+    </File>
+    <File Include="Controllers/ProductCategoryController.cs">
+      <publishTime>07/28/2020 22:56:13</publishTime>
+    </File>
+    <File Include="Controllers/ProductController.cs">
+      <publishTime>07/28/2020 22:56:13</publishTime>
+    </File>
+    <File Include="Infrastructure/Core/ApiBaseController.cs">
+      <publishTime>07/28/2020 22:56:13</publishTime>
+    </File>
+    <File Include="Infrastructure/Core/BaseApplication.cs">
+      <publishTime>07/28/2020 22:56:13</publishTime>
+    </File>
+    <File Include="Infrastructure/Core/CommandHelper.cs">
+      <publishTime>07/28/2020 22:56:13</publishTime>
+    </File>
+    <File Include="Infrastructure/Core/EntityExtensions.cs">
+      <publishTime>07/28/2020 22:56:13</publishTime>
+    </File>
+    <File Include="Infrastructure/Core/PaginationSet.cs">
+      <publishTime>07/28/2020 22:56:13</publishTime>
+    </File>
+    <File Include="Models/ApplicationGroup.cs">
+      <publishTime>07/28/2020 22:56:13</publishTime>
+    </File>
+    <File Include="Models/ApplicationRole.cs">
+      <publishTime>07/28/2020 22:56:13</publishTime>
+    </File>
+    <File Include="Models/ApplicationRoleGroup.cs">
+      <publishTime>07/28/2020 22:56:13</publishTime>
+    </File>
+    <File Include="Models/ApplicationUser.cs">
+      <publishTime>07/28/2020 22:56:13</publishTime>
+    </File>
+    <File Include="Models/ApplicationUserGroup.cs">
+      <publishTime>07/28/2020 22:56:13</publishTime>
+    </File>
+    <File Include="Models/ContactDetail.cs">
+      <publishTime>07/28/2020 22:56:13</publishTime>
+    </File>
+    <File Include="Models/Error.cs">
+      <publishTime>07/28/2020 22:56:13</publishTime>
+    </File>
+    <File Include="Models/Feedback.cs">
+      <publishTime>07/28/2020 22:56:13</publishTime>
+    </File>
+    <File Include="Models/Footer.cs">
+      <publishTime>07/28/2020 22:56:13</publishTime>
+    </File>
+    <File Include="Models/Menu.cs">
+      <publishTime>07/28/2020 22:56:13</publishTime>
+    </File>
+    <File Include="Models/MenuGroup.cs">
+      <publishTime>07/28/2020 22:56:13</publishTime>
+    </File>
+    <File Include="Models/Order.cs">
+      <publishTime>07/28/2020 22:56:13</publishTime>
+    </File>
+    <File Include="Models/OrderDetail.cs">
+      <publishTime>07/28/2020 22:56:13</publishTime>
+    </File>
+    <File Include="Models/Page.cs">
+      <publishTime>07/28/2020 22:56:13</publishTime>
+    </File>
+    <File Include="Models/Post.cs">
+      <publishTime>07/28/2020 22:56:13</publishTime>
+    </File>
+    <File Include="Models/PostCategory.cs">
+      <publishTime>07/28/2020 22:56:13</publishTime>
+    </File>
+    <File Include="Models/PostTag.cs">
+      <publishTime>07/28/2020 22:56:13</publishTime>
+    </File>
+    <File Include="Models/Product.cs">
+      <publishTime>07/28/2020 22:56:13</publishTime>
+    </File>
+    <File Include="Models/ProductCategory.cs">
+      <publishTime>07/28/2020 22:56:13</publishTime>
+    </File>
+    <File Include="Models/ProductTag.cs">
+      <publishTime>07/28/2020 22:56:13</publishTime>
+    </File>
+    <File Include="Models/Slide.cs">
+      <publishTime>07/28/2020 22:56:13</publishTime>
+    </File>
+    <File Include="Models/SupportOnline.cs">
+      <publishTime>07/28/2020 22:56:13</publishTime>
+    </File>
+    <File Include="Models/SystemConfig.cs">
+      <publishTime>07/28/2020 22:56:13</publishTime>
+    </File>
+    <File Include="Models/Tag.cs">
+      <publishTime>07/28/2020 22:56:13</publishTime>
+    </File>
+    <File Include="Models/VisitorStatistic.cs">
+      <publishTime>07/28/2020 22:56:13</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

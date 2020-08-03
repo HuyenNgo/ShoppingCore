@@ -1,15 +1,14 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using ShoppingCore.Applicatons.Dtos.Orders;
 using ShoppingCore.Applicatons.Intfs;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+using ShoppingCore.Infrastructure.Core;
 using System.Threading.Tasks;
 
 namespace ShoppingCore.Controllers
 {
     [Route("api/shoppingcart")]
     [ApiController]
-    public class OrderController : ControllerBase
+    public class OrderController : ApiBaseController
     {
 
         private readonly IOrderService orderService;
@@ -21,13 +20,15 @@ namespace ShoppingCore.Controllers
         // GET api/values
 
         [Route("createcart")]
-        [HttpGet]
+        [HttpPost]
 
-        public async Task<IActionResult> CreateOrder(string orderViewModel, string listcart)
+        public async Task<IActionResult> CreateOrder([FromBody]CreateCartModel model)
         {
-            return new OkObjectResult(await this.orderService.CreateOrder(orderViewModel, listcart));
+            return new OkObjectResult(await this.orderService.CreateOrder(model.orderViewModel, model.listcart));
         }
 
 
     }
+
+   
 }

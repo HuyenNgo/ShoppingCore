@@ -1,0 +1,15 @@
+E:\WORKPLACE\UNI COURSE\Dotnet\ShoppingCoreDeloy\ShoppingCore\ShoppingCore\obj\Release\netcoreapp2.2\ShoppingCore.RazorAssemblyInfo.cache
+E:\WORKPLACE\UNI COURSE\Dotnet\ShoppingCoreDeloy\ShoppingCore\ShoppingCore\obj\Release\netcoreapp2.2\ShoppingCore.RazorAssemblyInfo.cs
+E:\WORKPLACE\UNI COURSE\Dotnet\ShoppingCoreDeloy\ShoppingCore\ShoppingCore\obj\Release\netcoreapp2.2\ShoppingCore.AssemblyInfoInputs.cache
+E:\WORKPLACE\UNI COURSE\Dotnet\ShoppingCoreDeloy\ShoppingCore\ShoppingCore\obj\Release\netcoreapp2.2\ShoppingCore.AssemblyInfo.cs
+E:\WORKPLACE\UNI COURSE\Dotnet\ShoppingCoreDeloy\ShoppingCore\ShoppingCore\bin\Release\netcoreapp2.2\appsettings.Development.json
+E:\WORKPLACE\UNI COURSE\Dotnet\ShoppingCoreDeloy\ShoppingCore\ShoppingCore\bin\Release\netcoreapp2.2\appsettings.json
+E:\WORKPLACE\UNI COURSE\Dotnet\ShoppingCoreDeloy\ShoppingCore\ShoppingCore\bin\Release\netcoreapp2.2\Properties\launchSettings.json
+E:\WORKPLACE\UNI COURSE\Dotnet\ShoppingCoreDeloy\ShoppingCore\ShoppingCore\bin\Release\netcoreapp2.2\ShoppingCore.deps.json
+E:\WORKPLACE\UNI COURSE\Dotnet\ShoppingCoreDeloy\ShoppingCore\ShoppingCore\bin\Release\netcoreapp2.2\ShoppingCore.runtimeconfig.json
+E:\WORKPLACE\UNI COURSE\Dotnet\ShoppingCoreDeloy\ShoppingCore\ShoppingCore\bin\Release\netcoreapp2.2\ShoppingCore.runtimeconfig.dev.json
+E:\WORKPLACE\UNI COURSE\Dotnet\ShoppingCoreDeloy\ShoppingCore\ShoppingCore\bin\Release\netcoreapp2.2\ShoppingCore.dll
+E:\WORKPLACE\UNI COURSE\Dotnet\ShoppingCoreDeloy\ShoppingCore\ShoppingCore\bin\Release\netcoreapp2.2\ShoppingCore.pdb
+E:\WORKPLACE\UNI COURSE\Dotnet\ShoppingCoreDeloy\ShoppingCore\ShoppingCore\obj\Release\netcoreapp2.2\ShoppingCore.RazorTargetAssemblyInfo.cache
+E:\WORKPLACE\UNI COURSE\Dotnet\ShoppingCoreDeloy\ShoppingCore\ShoppingCore\obj\Release\netcoreapp2.2\ShoppingCore.dll
+E:\WORKPLACE\UNI COURSE\Dotnet\ShoppingCoreDeloy\ShoppingCore\ShoppingCore\obj\Release\netcoreapp2.2\ShoppingCore.pdb
